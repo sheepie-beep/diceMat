@@ -174,6 +174,28 @@ wife: {
     outline: "#e9fffd",
     outlineWidth: 0.3
     }
+},
+
+wife2: {
+    name: "squished Wife",
+    description: "haha doofus",
+    type: "pattern",
+
+    showFacets: true,
+    facetColor: "#00263f",
+    facetOpacity: 0.35,
+    borderColor: "#00263f",
+
+    image: "assets/dice/imageBin fr fr/aWife.png",
+
+    font: {
+    family: "'Nunito', sans-serif",
+    color: "#ffaeb9",
+    size: 29,
+    shadow: "0 3px 3px #e9f6ff",
+    outline: "#861326",
+    outlineWidth: 0.4
+    }
 }
 
 
