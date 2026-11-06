@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheep Dice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dice-sets.js" defer></script>
+    <script src="script2.js" defer></script>
+</head>
+<body data-page="mat">
+
+<main class="app">
+
+    <header class="site-header">
+        <div class="brand">
+            <!-- can span logo here -->
+            <div>
+                <h1>Dice Mat</h1>
+                <p>When you wn whn when dice you when you when dice and you when when you roll and when so when dice</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="mat-layout">
+
+        <section class="mat">
+
+            <div class="rolling-area">
+
+                <div class="mat-heading">
+                    <!-- MAT NAME LATER HERE -->
+                    <span id="dice-count">0 dice</span>
+                </div>
+
+                <div id="dice-board" class="dice-board">
+                    <div class="empty-state">
+                        <!-- span logo here -->
+                        <p>Choose some dice below.</p>
+                    </div>
+                </div>
+
+                <div class="total-display">
+                    <span>Total</span>
+                    <strong id="total">0</strong>
+                </div>
+
+            </div>
+
+            <div class="mat-controls">
+
+                <div class="controls-title">
+                    <h3>Select Dice</h3>
+                    <p>Click to add a new die to your mat</p>
+                </div>
+
+                <div id="dice-selector" class="dice-selector"></div>
+
+                <div class="action-buttons">
+                    <button id="roll-btn" class="roll-btn">
+                        Roll Dice
+                    </button>
+
+                    <button id="clear-btn" class="clear-btn">
+                        Reset
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <aside class="mat-sidebar">
+
+            <div class="sidebar-heading">
+                <h2>Equipped Set</h2>
+                <p id="equipped-name">Rose Quartz</p>
+            </div>
+
+            <div id="sidebar-dice" class="sidebar-dice"></div>
+
+            <a href="bagFunc.html" class="bag-button">
+                <span class="bag-emoji">👜</span>
+                <span>Dice Bag</span>
+            </a>
+
+        </aside>
+
+    </div>
+
+    <footer class="site-footer">
+        bottom text
+    </footer>
+
+</main>
+
+</body>
+</html>
