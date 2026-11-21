@@ -302,10 +302,10 @@ const skins = {
 
         font: {
             family: "'Nunito', sans-serif",
-            color: "#fff3b0",
+            color: "#5f3a09",
             size: 29,
-            shadow: "0 3px 3px #71521b",
-            outline: "#61470f",
+            shadow: "0 3px 3px #f5ff69",
+            outline: "#f5ff69",
             outlineWidth: 0.6
         }
     },
